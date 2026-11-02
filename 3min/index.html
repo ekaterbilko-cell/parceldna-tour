@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ParcelDNA Platform Tour (3 min)</title>
+<meta name="description" content="A walkthrough of the live ParcelDNA platform: find an off-market deal, underwrite it, reach the owner, paper it, raise capital, and promote it.">
+<meta property="og:site_name" content="ParcelDNA">
+<meta property="og:type" content="video.other">
+<meta property="og:title" content="ParcelDNA Platform Tour: 3-minute video">
+<meta property="og:description" content="A walkthrough of the live ParcelDNA platform: find an off-market deal, underwrite it, reach the owner, paper it, raise capital, and promote it.">
+<meta property="og:url" content="https://ekaterbilko-cell.github.io/parceldna-tour/3min/">
+<meta property="og:image" content="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/og-3min.jpg">
+<meta property="og:image:secure_url" content="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/og-3min.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ParcelDNA platform tour: from first search to a funded raise">
+<meta property="og:video" content="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/ParcelDNA-Platform-Tour.mp4">
+<meta property="og:video:secure_url" content="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/ParcelDNA-Platform-Tour.mp4">
+<meta property="og:video:type" content="video/mp4">
+<meta property="og:video:width" content="1920">
+<meta property="og:video:height" content="1080">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ParcelDNA Platform Tour: 3-minute video">
+<meta name="twitter:description" content="A walkthrough of the live ParcelDNA platform: find an off-market deal, underwrite it, reach the owner, paper it, raise capital, and promote it.">
+<meta name="twitter:image" content="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/og-3min.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b50d0'/%3E%3Cpath d='M12 9l12 7-12 7z' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --bg: #080f26; --bg-2: #0e1d44; --line: #22356b; --fg: #eef2fb; --muted: #93a3c8;
+    --accent: #3d7bff; --accent-soft: #6096ff; --gold: #d6b062;
+    --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    --body: "Figtree", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: radial-gradient(1100px 560px at 85% -10%, rgba(61,123,255,.24), transparent 60%),
+                linear-gradient(180deg, var(--bg), var(--bg-2));
+    background-color: var(--bg); color: var(--fg); font-family: var(--body);
+    font-size: 16px; line-height: 1.55; min-height: 100vh;
+  }
+  .wrap {
+    max-width: 1080px; margin: 0 auto; display: grid; gap: 24px;
+    padding: 36px max(16px, env(safe-area-inset-right, 0px)) 56px max(16px, env(safe-area-inset-left, 0px));
+  }
+  .brand { font-family: var(--display); font-weight: 800; font-size: 22px; letter-spacing: -.01em; }
+  .brand span { color: var(--accent-soft); }
+  .eyebrow { font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+  h1 { font-family: var(--display); font-weight: 800; letter-spacing: -.025em; margin: 0;
+       font-size: clamp(32px, 5.4vw, 56px); line-height: 1.04; text-wrap: balance; }
+  .lede { color: var(--muted); max-width: 62ch; margin: 0; font-size: 17px; }
+  .player { border-radius: 14px; overflow: hidden; background: #000; aspect-ratio: 16/9; max-width: 100%;
+            box-shadow: 0 30px 80px rgba(0,0,0,.45), 0 0 0 1px var(--line); }
+  video { display: block; width: 100%; height: 100%; background: #000; }
+  .row { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; color: var(--muted); font-size: 15px; }
+  .row b { color: var(--fg); }
+  a.btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600;
+          padding: 12px 20px; border-radius: 999px; }
+  a.btn:focus-visible, a.alt:focus-visible { outline: 2px solid var(--accent-soft); outline-offset: 3px; }
+  a.alt { color: var(--accent-soft); font-weight: 600; text-decoration: none; }
+  a.alt:hover { text-decoration: underline; }
+  footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 18px; }
+  footer p { margin: 0; max-width: 80ch; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand">Parcel<span>DNA</span></div>
+  <div class="eyebrow">Platform tour &middot; 3 min</div>
+  <h1>From first search to a funded raise</h1>
+  <p class="lede">A walkthrough of the live ParcelDNA platform: find an off-market deal, underwrite it, reach the owner, paper it, raise capital, and promote it.</p>
+  <div class="player">
+    <video controls playsinline preload="metadata" poster="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/poster-3min.jpg">
+      <source src="https://ggfxcmlgqvcctaspqwsq.supabase.co/storage/v1/object/public/house-videos/parceldna/ParcelDNA-Platform-Tour.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="row">
+    <span><b>3:11</b> runtime &middot; captions built in &middot; real screens from the platform</span>
+  </div>
+  <div class="row">
+    <a class="btn" href="https://parceldna.com/signup">Start free at parceldna.com</a>
+    <a class="alt" href="../">Want the full picture? Watch the 5-minute version &rarr;</a>
+  </div>
+  <footer>
+    <p>Property figures shown are estimates from the platform. Not an offer to sell securities; investing involves risk, including loss of principal.</p>
+  </footer>
+</main>
+</body>
+</html>
